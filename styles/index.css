@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+*
+{
+  box-sizing: border-box;
+}
+
+/* CONFIGURAÇÕES GERAIS DO BODY */
+
+body
+{
+  margin: 0px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px;
+  background-color: #7754536c;
+  min-width: 300px;
+}
+
+a{
+  text-decoration: none;
+}
+
+main{
+    margin-bottom: 80px;
+}
+
+.container-produtos
+{
+  padding-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.nossos-produtos
+{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.prod-items
+{
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.prod-item
+{
+    border: 1px solid black;
+    padding: 5px 15px 5px 15px;
+    text-align: center;
+    margin: 5px;
+    background-color: rgb(255, 255, 255);
+}
+.prod-item a img
+{
+    padding: 10px 15px 10px 15px;
+}
+
+.container-QSN
+{
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.quem-somos-nos
+{
+  width: 70%;
+  height: 100%;
+  background-color: #eda6d0;
+  border: 2px solid black;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#sobre-nos-title{
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 20px;
+}#sobre-nos-text{
+    width: 100%;
+}
+
+#bolo1
+{
+    position: absolute;
+    top: 1000px; 
+    left: 60px;
+    rotate: -10deg;
+}#bolo2
+{
+    position: absolute;
+    top: 1200px; 
+    left: 90%;
+    rotate: 10deg;
+}#bolo3
+{
+    position: absolute;
+    top: 1400px; 
+    left: 60px;
+    rotate: -10deg;
+}#bolo4
+{
+    position: absolute;
+    top: 1600px;
+    left: 90%;
+    rotate: 10deg;
+}#bolo5
+{
+    position: absolute;
+    top: 1800px;
+    left: 60px;
+    rotate: -10deg;
+}#bolo6
+{
+    position: absolute;
+    top: 2000px; 
+    left: 90%;
+    rotate: 10deg;
+}#bolo7
+{
+    position: absolute;
+    top: 2200px; 
+    left: 60px;
+    rotate: -10deg;
+}#bolo8
+{
+    position: absolute;
+    top: 2400px; 
+    left: 90%;
+    rotate: 10deg;
+}#bolo9
+{
+    position: absolute;
+    top: 2600px; 
+    left: 60px;
+    rotate: -10deg;
+}
